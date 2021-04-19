@@ -1,0 +1,32 @@
+[{
+    "no" : 1,
+    "judul" : "Judul Lagu Pertama",
+    "kunci" : "A",
+    "lirik" : "Ini adalah lirik lagu yang pertama lorem           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, luctus vel massa quis, sagittis rutrum massa. Nulla facilisi. Sed nibh lorem, porttitor sed maximus quis, iaculis eget quam. Praesent ex dui, bibendum ut bibendum blandit, pulvinar sit amet mi. Nunc scelerisque non felis non aliquet. Proin tincidunt malesuada orci, eu interdum purus viverra quis. Donec eget nisi at urna tristique tristique vel id enim. Praesent pharetra lectus ut suscipit pharetra. Nunc rutrum leo elit, quis mattis elit tincidunt ac. Praesent molestie orci risus, ut finibus ligula vulputate at."
+},
+{
+    "no" : 2,
+    "judul" : "Judul Lagu Kedua",
+    "kunci" : "B",
+    "lirik" : "Ini adalah lirik lagu yang Kedua lorem           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, luctus vel massa quis, sagittis rutrum massa. Nulla facilisi. Sed nibh lorem, porttitor sed maximus quis, iaculis eget quam. Praesent ex dui, bibendum ut bibendum blandit, pulvinar sit amet mi. Nunc scelerisque non felis non aliquet. Proin tincidunt malesuada orci, eu interdum purus viverra quis. Donec eget nisi at urna tristique tristique vel id enim. Praesent pharetra lectus ut suscipit pharetra. Nunc rutrum leo elit, quis mattis elit tincidunt ac. Praesent molestie orci risus, ut finibus ligula vulputate at."
+},
+{
+    "no" : 3,
+    "judul" : "Judul Lagu Ketiga",
+    "kunci" : "C",
+    "lirik" : "Ini adalah lirik lagu yang Ketiga lorem           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, luctus vel massa quis, sagittis rutrum massa. Nulla facilisi. Sed nibh lorem, porttitor sed maximus quis, iaculis eget quam. Praesent ex dui, bibendum ut bibendum blandit, pulvinar sit amet mi. Nunc scelerisque non felis non aliquet. Proin tincidunt malesuada orci, eu interdum purus viverra quis. Donec eget nisi at urna tristique tristique vel id enim. Praesent pharetra lectus ut suscipit pharetra. Nunc rutrum leo elit, quis mattis elit tincidunt ac. Praesent molestie orci risus, ut finibus ligula vulputate at."
+},
+{
+    "no" : 4,
+    "judul" : "Judul Lagu Keempat",
+    "kunci" : "D",
+    "lirik" : "Ini adalah lirik lagu yang Keempat lorem           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, luctus vel massa quis, sagittis rutrum massa. Nulla facilisi. Sed nibh lorem, porttitor sed maximus quis, iaculis eget quam. Praesent ex dui, bibendum ut bibendum blandit, pulvinar sit amet mi. Nunc scelerisque non felis non aliquet. Proin tincidunt malesuada orci, eu interdum purus viverra quis. Donec eget nisi at urna tristique tristique vel id enim. Praesent pharetra lectus ut suscipit pharetra. Nunc rutrum leo elit, quis mattis elit tincidunt ac. Praesent molestie orci risus, ut finibus ligula vulputate at."
+},
+{
+    "no" : 5,
+    "judul" : "Judul Lagu Kelima",
+    "kunci" : "C",
+    "lirik" : "Ini adalah lirik lagu yang Kelima lorem           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, luctus vel massa quis, sagittis rutrum massa. Nulla facilisi. Sed nibh lorem, porttitor sed maximus quis, iaculis eget quam. Praesent ex dui, bibendum ut bibendum blandit, pulvinar sit amet mi. Nunc scelerisque non felis non aliquet. Proin tincidunt malesuada orci, eu interdum purus viverra quis. Donec eget nisi at urna tristique tristique vel id enim. Praesent pharetra lectus ut suscipit pharetra. Nunc rutrum leo elit, quis mattis elit tincidunt ac. Praesent molestie orci risus, ut finibus ligula vulputate at."
+}
+]
+

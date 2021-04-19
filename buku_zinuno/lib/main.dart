@@ -1,6 +1,7 @@
 // import 'dart:js';
 import 'dart:ui';
 
+import 'package:buku_zinuno/view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -9,10 +10,6 @@ void main() {
     new MaterialApp(
       title: ("Buku Zinuno BNKP"),
       home: new Home(),
-      routes: <String, WidgetBuilder>{
-        '/HalSatu': (BuildContext context) => new Home(),
-        '/HalDua': (BuildContext context) => new ViewLagu()
-      },
     ),
   );
 }
@@ -24,7 +21,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   TextEditingController controllerNomor = new TextEditingController();
-
+  String value;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,10 +44,13 @@ class _HomeState extends State<Home> {
               new TextField(
                 controller: controllerNomor,
                 decoration: new InputDecoration(labelText: "Nomor Zinuno"),
-                // keyboardType: TextInputType.number,
-                // inputFormatters: <TextInputFormatter>[
-                //   WhitelistingTextInputFormatter.digitsOnly
-                // ],
+                keyboardType: TextInputType.number,
+                onChanged: (text) {
+                  value = text;
+                },
+                inputFormatters: <TextInputFormatter>[
+                  WhitelistingTextInputFormatter.digitsOnly
+                ],
               ),
               new Padding(padding: new EdgeInsets.only(top: 20.0)),
               new RaisedButton(
@@ -58,10 +58,11 @@ class _HomeState extends State<Home> {
                 color: Colors.blue,
                 onPressed: () {
                   NomorLagu(nomor: controllerNomor.text);
-                  Navigator.pushNamed(
-                    context,
-                    '/HalDua',
-                  );
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (content) => view(
+                      value: value,
+                    ),
+                  ));
                 },
               )
             ],
